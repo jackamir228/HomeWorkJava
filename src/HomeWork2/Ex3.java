@@ -20,8 +20,6 @@ public class Ex3 {
         }while (number != targetNumber);
 
         System.out.println("Число было сгенерировано с попытки " + attempt);
-
-
     }
 }
 
