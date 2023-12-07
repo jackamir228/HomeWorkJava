@@ -15,6 +15,5 @@ public class Boss {
     }
     public void bossScream(String managerName) {
         System.out.printf("Босс говорит - %s быстрее!", managerName);
-
     }
 }

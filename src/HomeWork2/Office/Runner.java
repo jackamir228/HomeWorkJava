@@ -12,9 +12,5 @@ public class Runner {
         manager.managerScream();
         security.securityDonate("Петрович");
         secretary.bossChilling("Петр Николаевич", "Володя", "Петрович");
-
-
-
-
     }
 }

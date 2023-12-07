@@ -15,6 +15,5 @@ public class Secretary {
 
     public void bossChilling(String bossName, String managerName, String securityName) {
         System.out.printf("Секретарь говорит - %s, не волнуйтесь, %s все успеет. %s - подождите!", bossName, managerName, securityName);
-
     }
 }
