@@ -1,3 +1,5 @@
+package Homework1;
+
 public class HomeWork281123 {
         public static void main(String[] args) {
             ex1();
@@ -68,8 +70,6 @@ public class HomeWork281123 {
                     .replaceAll("This is", "Those are"));
 
             System.out.println(simply.charAt(20));
-
-
         }
 
         public static void ex4() {
@@ -175,26 +175,12 @@ public class HomeWork281123 {
             int taxSum = 0;
             int finalResult = 0;
 
-            if (resultBeforeTax > 2_000_000) {
+            System.out.println(resultBeforeTax);
 
-                taxSum = (int) (resultBeforeTax * 0.13);
-                finalResult = resultBeforeTax - taxSum;
+            if(resultBeforeTax > 1_000_000) {
 
-            } else if (resultBeforeTax < 2_000_000) {
-
-                taxSum = (int) (resultBeforeTax * 0.1);
-                finalResult = resultBeforeTax - taxSum;
-
-            } else if (resultBeforeTax < 1_000_000) {
-
-                taxSum = (int) (resultBeforeTax * 0.8);
-                finalResult = resultBeforeTax - taxSum;
             }
-            System.out.println("Доход компании после вычета налогов: " + finalResult);
-            System.out.println("Cумма налога: " + taxSum);
-
-
-
+     System.out.println("Доход компании после вычета налогов: " + finalResult);System.out.println("Cумма налога: " + taxSum);
         }
     }
 
