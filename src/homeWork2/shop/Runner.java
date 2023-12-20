@@ -1,4 +1,4 @@
-package HomeWork2.shop;
+package homeWork2.shop;
 public class Runner {
     public static void main(String[] args) {
         Item hammer = new Item(1000, "Молот");
@@ -21,7 +21,5 @@ public class Runner {
 
         vasili.showOffThings("Василий","молот", "отвертка");
         maryana.showOffThings("Марьяна", "тетрадь", "ручка");
-
-
     }
 }

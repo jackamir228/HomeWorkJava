@@ -1,4 +1,4 @@
-package HomeWork2;
+package homeWork2;
 public class Ex1 {
     public static void main(String[] args) {
         int[][] arrayOfNumbers = new int[10][10];

@@ -1,4 +1,4 @@
-package HomeWork2;
+package homeWork2;
 import java.util.Random;
 public class Ex3 {
     public static void main(String[] args) {
