@@ -7,7 +7,7 @@ public class Factory {
         samsung.showInfoAboutPhone();
 
         Iphone iphone = new Iphone("Iphone 15", "Ios", "15x zoom",
-                "7uik","15х12х13", true);
+                "7uik", "15х12х13", true);
         iphone.showInfoAboutPhone();
 
 

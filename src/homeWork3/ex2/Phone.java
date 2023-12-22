@@ -1,5 +1,7 @@
 package homeWork3.ex2;
+
 public abstract class Phone {
+
     protected String name;
 
     public void setName(String name) {
