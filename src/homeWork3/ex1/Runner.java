@@ -2,7 +2,7 @@ package homeWork3.ex1;
 
 public class Runner {
     public static void main(String[] args) {
-        Birch birch = new Birch(70, true);
+        Birch birch = new Birch(70);
         birch.blossomOfLeaves();
 
         Pine pine = new Pine(275);
@@ -15,6 +15,8 @@ public class Runner {
         double[] yearsOfTree = {birchAge, firAge, pineAge};
         double middleAge = (yearsOfTree[0] + yearsOfTree[1] + yearsOfTree[2]) / yearsOfTree.length;
         System.out.println("Средний возраст деревьев: " + middleAge);
+
+        birch.blossomOfLeaves();
     }
 }
 

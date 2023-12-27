@@ -2,11 +2,11 @@ package homeWork3.ex1;
 
 public abstract class Deciduous extends Tree {
 
-    protected boolean leaves;
+    protected String leaves;
 
-    public Deciduous(int age, boolean isHasLeaves) {
+    public Deciduous(int age, String leaves) {
         super(age);
-        this.leaves = isHasLeaves;
+        this.leaves = leaves;
     }
 
     public void fallOfLeaves() {
