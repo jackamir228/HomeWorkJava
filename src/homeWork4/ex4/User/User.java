@@ -61,7 +61,6 @@ public class User {
 
     public void setCountMessages(Message countMessages) {
         int size = checkMessagesLegth();
-        if
     }
 
 
